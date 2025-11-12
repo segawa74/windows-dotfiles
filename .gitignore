@@ -1,0 +1,56 @@
+# ========================================
+# .gitignore for Windows dotfiles
+# (komorebi, yasb, vencord, etc.)
+# ========================================
+
+# 1. Secrets
+# API keys, tokens, passwords, etc.
+# This is the most important section.
+# ----------------------------------------
+*.env
+.env
+secrets.yaml
+secrets.json
+*.key
+credentials.*
+
+
+# 2. Wallpapers / Images (Copyrights)
+# Do not include copyrighted image files in the repository.
+# ----------------------------------------
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.webp
+*.gif
+# If you have a dedicated wallpaper folder, ignore the whole folder
+/wallpapers/
+
+
+# 3. OS-Specific Files (Windows)
+# ----------------------------------------
+# Thumbnail cache
+Thumbs.db
+ehthumbs.db
+
+# Folder settings
+desktop.ini
+
+# Windows temporary files
+~$*.*
+
+
+# 4. Editor / IDE Cache
+# ----------------------------------------
+# VSCode (Manage settings, but ignore cache)
+.vscode/*
+!.vscode/settings.json
+!.vscode/keybindings.json
+!.vscode/extensions.json
+.history/
+
+# Common backup files
+*.bak
+*.swp
+*.swo
