@@ -1,12 +1,12 @@
 {
   "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.38/schema.json",
   "app_specific_configuration_path": "$Env:USERPROFILE/applications.json",
-    "window_hiding_behaviour": "Cloak",
+  "window_hiding_behaviour": "Cloak",
   "cross_monitor_move_behaviour": "Insert",
   "transparency": false,
   "transparency_alpha": 254,
-  "default_workspace_padding": 10,
-  "default_container_padding": 5,
+  "default_workspace_padding": 1,
+  "default_container_padding": 1,
   "border": true,
   "border_width": 4,
   "border_offset": -1,
@@ -16,10 +16,10 @@
     "duration": 400,
     "fps": 60,
     "style": {
-        "movement":"EaseOutBack",
-        "transparency": "Linear"
-      }
-},
+      "movement": "EaseOutBack",
+      "transparency": "Linear"
+    }
+  },
   "border_colours": {
     "single": "#e0af68",
     "unfocused": "#9aa5ce",
@@ -39,7 +39,11 @@
         },
         {
           "name": "III",
-          "layout": "HorizontalStack"
+          "layout": "VerticalStack"
+        },
+        {
+          "name": "IV",
+          "layout": "VerticalStack"
         }
       ]
     },
@@ -57,31 +61,30 @@
         {
           "name": "3",
           "layout": "HorizontalStack"
-        },
-	
+        }
       ]
     }
   ],
- "ignore_rules": [
+  "ignore_rules": [
     {
-"kind": "Exe",
-"id": "explorer.exe",
-"matching_strategy": "Equals",
-},
-{
-"kind": "Exe",
-"id": "ACShadows.exe",
-"matching_strategy": "Equals",
-},
-{
-"kind": "Exe",
-"id": "Overwatch.exe",
-"matching_strategy": "Equals",
-},
-{
-"kind": "Exe",
-"id": "Photos.exe",
-"matching_strategy": "Equals",
-}
-]
+      "kind": "Exe",
+      "id": "explorer.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "ACShadows.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "Overwatch.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "Photos.exe",
+      "matching_strategy": "Equals"
+    }
+  ]
 }
