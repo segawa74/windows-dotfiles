@@ -68,3 +68,7 @@ alt + shift + 1         : komorebic move-to-workspace 0
 alt + shift + 2         : komorebic move-to-workspace 1
 alt + shift + 3         : komorebic move-to-workspace 2
 alt + shift + 4         : komorebic move-to-workspace 3
+
+# Move windows across monitors
+alt + shift + right     : komorebic move-to-monitor next
+alt + shift + left      : komorebic move-to-monitor previous
