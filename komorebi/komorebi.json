@@ -44,6 +44,10 @@
         {
           "name": "IV",
           "layout": "VerticalStack"
+        },
+        {
+          "name": "V",
+          "layout": "VerticalStack"
         }
       ]
     },
@@ -64,6 +68,10 @@
         },
         {
           "name": "4",
+          "layout": "VerticalStack"
+        },
+        {
+          "name": "5",
           "layout": "VerticalStack"
         }
       ]

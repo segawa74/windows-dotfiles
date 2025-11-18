@@ -1,0 +1,22 @@
+- defaults:
+    link:
+      relink: true
+      # force: true #startup
+
+- link:
+    # komorebi
+    ~/komorebi.json: komorebi/komorebi.json
+
+    # whkd
+    ~/.config/whkdrc: whkd/whkdrc
+
+    # yasb
+    ~/.config/yasb/config.yaml: yasb/config.yaml
+    ~/.config/yasb/styles.css: yasb/styles.css
+    ~/.config/yasb/theme.json: yasb/theme.json
+
+    # windows-terminal
+    ~/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json: windows-terminal/settings.json
+
+- shell:
+    - [echo "Finished create link"]
