@@ -86,12 +86,10 @@ If you see "Linking failed" or permission errors:
 
 [komorebi + whkd]
 
-1. Press Win + R to open the "Run" dialog.
-2. Type "shell:startup" and hit Enter (this opens the Startup folder).
-3. Right-click in the folder > New > Shortcut.
-4. In the "location" field, enter:
-   komorebic start --whkd
-5. Give the shortcut a name (e.g., komorebi) and click Finish.
+1. Open PowerShell or Command Prompt.
+2. Run the following command:
+   komorebic enable-autostart --whkd
+3. (To disable it later, run: komorebic disable-autostart)
 
 ---
 

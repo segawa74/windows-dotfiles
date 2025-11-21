@@ -179,7 +179,7 @@ widgets:
     type: "yasb.wallpapers.WallpapersWidget"
     options:
       label: "<span>\udb83\ude09</span>"
-      image_path: "C:\\Users\\user\\OneDrive\\Pictures\\Wallpapers"
+      image_path: "C:\\Users\\xyzcd\\OneDrive\\Pictures\\Wallpapers"
       change_automatically: false
       update_interval: 60
       gallery:
